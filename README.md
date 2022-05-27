@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+ecommerce
+=========
 
-You can use the [editor on GitHub](https://github.com/nayanbirla/coursera-test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Note: This project is no longer being maintained.**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A PHP e-commerce web application.
 
-### Markdown
+1. To set this web application, make sure PHP and PHPMyAdmin is installed on your server.
+2. Next open PHPMyAdmin, create a database and import the bolt.sql file. This will generate tables in your database on your server.
+3. Upload all files on your server except for bolt.sql or bolt-new-phpmyadmin.sql! I have provided two database files for an old and new version of PHPMyAdmin respectively.
+4. The admin user which I have made has an email id sjobs@apple.com / admin@admin.com and the password is steve. (Please confirm this in db or create one manually.
+5. Open config.php file and add the details of your PHPMyAdmin's id and password to access the database. Now re-upload this file to the server.
+6. Once this is done, go to the url of your website and it should be up and running.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Enjoy!
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nayanbirla/coursera-test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Currently only COD (Cash on Delivery), has been implemented. Working on email delivery on purchase and payment gateway. Stay tuned for the updates.
